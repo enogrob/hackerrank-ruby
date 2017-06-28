@@ -1,0 +1,9 @@
+task :init
+
+task :default => :init do
+  Dir['test/test*.rb'].each do |f|
+    sh "ruby -I lib #{f}"
+  end
+end
+
+task :clean

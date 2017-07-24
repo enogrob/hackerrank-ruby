@@ -21,9 +21,12 @@ def object_method_parameters a, b, c
 end
 
 # Ruby Control Structures - Each
+# Ruby Control Structures - Unless
 def scoring(array)
     # iterate through each of the element in array using *each* and call update_score on itI
     array.each do |user|
-        user.update_score
+        unless user.is_admin?
+          user.update_score
+        end
     end
 end

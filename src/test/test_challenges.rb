@@ -35,6 +35,9 @@ describe "Ruby Control Structures" do
       def update_score
         puts __method__.to_s
       end
+      def is_admin?
+        false
+      end
     end
 
     @user = User.new
@@ -42,7 +45,12 @@ describe "Ruby Control Structures" do
     @users << @user
   end
 
-  it "Each" do
+  it "Ruby Control Structures - Each" do
+    output = capture_output { scoring(@users) }
+    assert_equal "update_score", output.chop!
+  end
+
+  it "Ruby Control Structures - Unless" do
     output = capture_output { scoring(@users) }
     assert_equal "update_score", output.chop!
   end

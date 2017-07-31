@@ -16,9 +16,13 @@ Learn everything you need to about the subject of this `Hackerrank` project.
 ## Topics
 ```
 ruby
-[x] Hello HackerRank
-[x] Everything is an Object
-[x] Object Methods
-[x] Object Methods Parameters
-[x] Control Structures Each
+Introduction Challenges
+[x] Ruby Tutorial - Hello HackerRank
+[x] Ruby Tutorial - Everything is an Object
+[x] Ruby Tutorial - Object Methods
+[x] Ruby Tutorial - Object Methods Parameters
+Control Structures Challenges
+[x] Control Structures - Each
+[x] Control Structures - Unless
+[x] Control Structures - Infinite Loop
 ```
